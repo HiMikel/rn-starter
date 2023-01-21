@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { View, StyleSheet, FlatList, Button } from "react-native";
-import { color } from "react-native-reanimated";
 
 const ColorScreen = () => {
     const [colors, setColors] = useState([]);
